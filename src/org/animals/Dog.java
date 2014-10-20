@@ -11,10 +11,14 @@ public class Dog {
 	public void bark() {
 		System.out.println("ruff");
 		System.out.println("ruff");
+		takeABreath();
+		System.out.println("ruff");
+		System.out.println("ruff");
+		System.out.println("ruff");
+	}
+
+	public void takeABreath() {
 		System.out.println("...");
-		System.out.println("ruff");
-		System.out.println("ruff");
-		System.out.println("ruff");
 	}
 
 }
