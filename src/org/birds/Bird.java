@@ -1,4 +1,4 @@
-package org.animals;
+package org.birds;
 
 public class Bird {
 
