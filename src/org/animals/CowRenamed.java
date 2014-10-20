@@ -1,6 +1,6 @@
 package org.animals;
 
-public class Cow {
+public class CowRenamed {
 
 	public void moo() {
 		System.out.println("moo");
