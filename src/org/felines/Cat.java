@@ -1,4 +1,4 @@
-package org.animals;
+package org.felines;
 
 public class Cat {
 
