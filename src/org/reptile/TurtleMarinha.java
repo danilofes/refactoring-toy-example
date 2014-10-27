@@ -29,6 +29,12 @@ public class TurtleMarinha extends Reptile {
 	
 	public TurtleMarinha() {
 	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 
 
 	
