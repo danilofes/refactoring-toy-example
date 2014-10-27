@@ -72,7 +72,7 @@ public class Reptile {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Turtle other = (Turtle) obj;
+		TurtleMarinha other = (TurtleMarinha) obj;
 		if (action == null) {
 			if (other.action != null)
 				return false;
