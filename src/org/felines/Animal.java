@@ -1,6 +1,4 @@
 package org.felines;
 
-public interface Animal {
-	
-	 void action();
+public interface Animal extends AnimalSuper {
 }
