@@ -1,0 +1,5 @@
+package org.felines;
+
+public interface Animal {
+
+}
