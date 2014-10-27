@@ -1,6 +1,6 @@
 package org.reptile;
 
-public class Reptile {
+public class Reptile extends AnimalMarilho {
 
 	protected int age;
 	protected int name;
