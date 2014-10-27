@@ -6,20 +6,10 @@ public class AnimalMarilho {
 		super();
 	}
 	
-	protected int age;
-	protected int name;
 	protected int spead;
 	protected String action;
 
 	
-
-	public int getName() {
-		return name;
-	}
-
-	public void setName(int name) {
-		this.name = name;
-	}
 
 	public int getSpead() {
 		return spead;
