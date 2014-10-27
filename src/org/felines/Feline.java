@@ -1,6 +1,6 @@
 package org.felines;
 
-public class Feline {
+public class Feline implements Animal {
 
 	
 	private int age;
@@ -21,6 +21,11 @@ public class Feline {
 	
 	public void meow() {
 		System.out.println("meow");
+	}
+	@Override
+	public void action() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
