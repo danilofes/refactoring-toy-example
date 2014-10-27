@@ -59,6 +59,18 @@ public class Turtle {
 	public void setAction(String action) {
 		this.action = action;
 	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Turtle [age=" + age + ", name=" + name + ", spead=" + spead
+				+ ", action=" + action + ", getAge()=" + getAge()
+				+ ", getName()=" + getName() + ", getSpead()=" + getSpead()
+				+ ", getAction()=" + getAction() + ", hashCode()=" + hashCode()
+				+ ", getClass()=" + getClass() + ", toString()="
+				+ super.toString() + "]";
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
