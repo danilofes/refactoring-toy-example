@@ -2,7 +2,6 @@ package org.felines;
 
 public class Feline implements Animal {
 
-	private int speed;
 	private int age;
 	private int name;
 	
@@ -26,12 +25,6 @@ public class Feline implements Animal {
 	public void action() {
 		// TODO Auto-generated method stub
 		
-	}
-	public int getSpeed() {
-		return speed;
-	}
-	public void setSpeed(int speed) {
-		this.speed = speed;
 	}
 	
 	
