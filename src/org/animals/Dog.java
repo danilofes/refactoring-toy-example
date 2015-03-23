@@ -8,7 +8,7 @@ public class Dog {
 		return this.age;
 	}
 
-	public void bark() {
+	public void barkBark() {
 		System.out.println("ruff");
 		System.out.println("ruff");
 		takeABreath();
