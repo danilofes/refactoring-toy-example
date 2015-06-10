@@ -5,8 +5,6 @@ import org.animals.Dog;
 public class DogManager {
 
 	private Dog dog;
-	public int magicNumber = 17;
-	
 	public DogManager(Dog aDog) {
 		this.dog = aDog;
 	}
@@ -20,7 +18,7 @@ public class DogManager {
 			System.out.println(i);
 			sum += i;
 		}
-		sum -= magicNumber;
+		sum -= dog.magicNumber;
 		dog.takeABreath();
 	}
 
