@@ -1,6 +1,5 @@
 package org.animals;
 
-import org.DogManager;
 
 public class Dog {
 
@@ -9,15 +8,6 @@ public class Dog {
 
 	public int getAge() {
 		return this.age;
-	}
-
-	public void barkBark(DogManager manager) {
-		System.out.println("ruff");
-		System.out.println("ruff");
-		takeABreath();
-		System.out.println("ruff");
-		System.out.println("ruff");
-		System.out.println("ruff");
 	}
 
 	public void takeABreath() {
